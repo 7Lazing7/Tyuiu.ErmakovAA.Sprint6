@@ -206,3 +206,4 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task0.V3
         private PictureBox pictureBox1;
     }
 }
+
