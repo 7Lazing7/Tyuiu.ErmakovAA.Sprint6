@@ -1,3 +1,4 @@
+
 namespace Tyuiu.ErmakovAA.Sprint6.Task1.V6
 {
     internal static class Program
