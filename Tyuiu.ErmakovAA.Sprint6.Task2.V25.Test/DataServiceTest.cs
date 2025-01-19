@@ -5,25 +5,14 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task2.V25.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidCalc()
+        public void TestMethod1()
         {
-            DataService dataService = new DataService();
-            double[] wait = new double[]
-            {
-                8.04,
-                6.68,
-                4.84,
-                1.76,
-                0.45,
-                0.5,
-                -0.87,
-                -2.42,
-                -3.88,
-                -6.83,
-                -8.88
-            };
-            CollectionAssert.AreEqual(wait, dataService.GetMassFunction(-5, 5));
-
+            DataService ds = new DataService();
+            int startValue = -5;
+            int stopValue = 5;
+            double[] wait = { 23.61, 16.08, 7.84, 4.58, 2.88, 0.75, -4.47, -9.46, -7.41, -6.16, -7.29 };
+            var res = ds.GetMassFunction(startValue, stopValue);
+            CollectionAssert.AreEqual(wait, res);
         }
     }
 }

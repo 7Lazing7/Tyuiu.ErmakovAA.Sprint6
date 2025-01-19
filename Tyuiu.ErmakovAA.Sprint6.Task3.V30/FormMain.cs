@@ -18,7 +18,7 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task3.V30
         };
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 3 выполнил студент группы ПКТб-23-2 Тарасов Владислав Денисович", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Спринт 6 | Таск 3 | Вариант 30 | Ермаков А.А ", "INFO", MessageBoxButtons.OK);
         }
 
         private void buttonDone_Click(object sender, EventArgs e)

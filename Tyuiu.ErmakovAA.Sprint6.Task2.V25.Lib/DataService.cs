@@ -5,16 +5,18 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task2.V25.Lib
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
-            double[] values = new double[stopValue - startValue + 1];
-            int index = 0;
-
-            for (int i = startValue; i <= stopValue; i++)
+            double[] valueArray;
+            int len = (stopValue - startValue) + 1;
+            valueArray = new double[len];
+            double y;
+            int count = 0;
+            for (int x = startValue; x <= stopValue; x++)
             {
-                values[index] = Math.Round((5 * i + 2.5) / (Math.Sin(i) -2) + 2,2);
-                index++;
+                y = Math.Round(((5 * x + 2.5) / (Math.Sin(x) - 2) + 2), 2);
+                valueArray[count] = y;
+                count++;
             }
-            return values;
+            return valueArray;
         }
-
     }
 }

@@ -10,7 +10,7 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task1.V6.Test
             DataService dataService = new DataService();
             double[] wait = new double[]
             {
-                -14.74,-11.55,-7.59,-3.70,-0.73,2,3.86,6.64,10.27,14.08,17.27
+                17.27,14.08,10.27,6.65,3.87,2.0,-0.74,-3.71,-7.59,-11.55,-14.74
             };
             CollectionAssert.AreEqual(wait, dataService.GetMassFunction(-5, 5));
         }
