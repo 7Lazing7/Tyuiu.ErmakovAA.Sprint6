@@ -12,23 +12,28 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task0.V3
             DataService dataService = new DataService();
             try
             {
-                textBoxResult_SBI.Text = Convert.ToString(dataService.Calculate(Convert.ToInt32(textBoxX_SBI.Text)));
+                textBoxResult__ErmakovAA.Text = Convert.ToString(dataService.Calculate(Convert.ToInt32(textBoxX_SBI.Text)));
             }
             catch
             {
                 MessageBox.Show("Неверное значение", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        private void textBoxVarX_SBI_KeyPress(object sender, KeyPressEventArgs e)
+        private void textBoxVarX_ErmakovAA_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((e.KeyChar <= 47 || e.KeyChar >= 58) && (e.KeyChar != '.') && (e.KeyChar != 8))
             {
                 e.Handled = true;
             }
         }
-        private void buttonQuestion_SBI_Click(object sender, EventArgs e)
+        private void buttonQuestion_ErmakovAA_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Спринт 6 | Таск 1 | Вариант 6 | Ермаков А.А ", "INFO", MessageBoxButtons.OK);
+        }
+
+        private void textBoxTask_ErmakovAA_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

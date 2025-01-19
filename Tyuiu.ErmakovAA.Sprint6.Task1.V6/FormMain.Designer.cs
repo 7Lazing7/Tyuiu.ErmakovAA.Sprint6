@@ -29,89 +29,94 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            groupBoxTask_SBI = new GroupBox();
-            textBoxTask_SBI = new TextBox();
-            groupBoxResult_SBI = new GroupBox();
-            labelResult_SBI = new Label();
-            textBoxResult_SBI = new TextBox();
-            groupBoxInput_SBI = new GroupBox();
+            groupBoxTask_ErmakovAA
+
+
+
+
+                = new GroupBox();
+            textBoxTask_ErmakovAA = new TextBox();
+            groupBoxResult_ErmakovAA = new GroupBox();
+            labelResult_ErmakovAA = new Label();
+            textBoxResult_ErmakovAA = new TextBox();
+            groupBoxInput_ErmakovAA = new GroupBox();
             label2 = new Label();
-            textBoxStopStep_SBI = new TextBox();
+            textBoxStopStep_ErmakovAA = new TextBox();
             label1 = new Label();
-            textBoxStartStep_SBI = new TextBox();
-            buttonDone_SBI = new Button();
-            buttonHelp_SBI = new Button();
-            groupBoxTask_SBI.SuspendLayout();
-            groupBoxResult_SBI.SuspendLayout();
-            groupBoxInput_SBI.SuspendLayout();
+            textBoxStartStep_ErmakovAA = new TextBox();
+            buttonDone_ErmakovAA = new Button();
+            buttonHelp_ErmakovAA = new Button();
+            groupBoxTask_ErmakovAA.SuspendLayout();
+            groupBoxResult_ErmakovAA.SuspendLayout();
+            groupBoxInput_ErmakovAA.SuspendLayout();
             SuspendLayout();
             // 
-            // groupBoxTask_SBI
+            // groupBoxTask_ErmakovAA
             // 
-            groupBoxTask_SBI.Controls.Add(textBoxTask_SBI);
-            groupBoxTask_SBI.Location = new Point(12, 12);
-            groupBoxTask_SBI.Name = "groupBoxTask_SBI";
-            groupBoxTask_SBI.Size = new Size(485, 308);
-            groupBoxTask_SBI.TabIndex = 1;
-            groupBoxTask_SBI.TabStop = false;
-            groupBoxTask_SBI.Text = "Условие";
+            groupBoxTask_ErmakovAA.Controls.Add(textBoxTask_ErmakovAA);
+            groupBoxTask_ErmakovAA.Location = new Point(12, 12);
+            groupBoxTask_ErmakovAA.Name = "groupBoxTask_ErmakovAA";
+            groupBoxTask_ErmakovAA.Size = new Size(485, 308);
+            groupBoxTask_ErmakovAA.TabIndex = 1;
+            groupBoxTask_ErmakovAA.TabStop = false;
+            groupBoxTask_ErmakovAA.Text = "Условие";
             // 
-            // textBoxTask_SBI
+            // textBoxTask_ErmakovAA
             // 
-            textBoxTask_SBI.BorderStyle = BorderStyle.None;
-            textBoxTask_SBI.Font = new Font("Consolas", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            textBoxTask_SBI.Location = new Point(11, 19);
-            textBoxTask_SBI.Multiline = true;
-            textBoxTask_SBI.Name = "textBoxTask_SBI";
-            textBoxTask_SBI.ReadOnly = true;
-            textBoxTask_SBI.Size = new Size(468, 169);
-            textBoxTask_SBI.TabIndex = 0;
-            textBoxTask_SBI.Text = resources.GetString("textBoxTask_SBI.Text");
+            textBoxTask_ErmakovAA.BorderStyle = BorderStyle.None;
+            textBoxTask_ErmakovAA.Font = new Font("Consolas", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            textBoxTask_ErmakovAA.Location = new Point(11, 19);
+            textBoxTask_ErmakovAA.Multiline = true;
+            textBoxTask_ErmakovAA.Name = "textBoxTask_ErmakovAA";
+            textBoxTask_ErmakovAA.ReadOnly = true;
+            textBoxTask_ErmakovAA.Size = new Size(468, 169);
+            textBoxTask_ErmakovAA.TabIndex = 0;
+            textBoxTask_ErmakovAA.Text = resources.GetString("textBoxTask_ErmakovAA.Text");
             // 
-            // groupBoxResult_SBI
+            // groupBoxResult_ErmakovAA
             // 
-            groupBoxResult_SBI.Controls.Add(labelResult_SBI);
-            groupBoxResult_SBI.Controls.Add(textBoxResult_SBI);
-            groupBoxResult_SBI.Location = new Point(503, 12);
-            groupBoxResult_SBI.Name = "groupBoxResult_SBI";
-            groupBoxResult_SBI.Size = new Size(285, 414);
-            groupBoxResult_SBI.TabIndex = 2;
-            groupBoxResult_SBI.TabStop = false;
-            groupBoxResult_SBI.Text = "Вывод данных";
+            groupBoxResult_ErmakovAA.Controls.Add(labelResult_ErmakovAA);
+            groupBoxResult_ErmakovAA.Controls.Add(textBoxResult_ErmakovAA);
+            groupBoxResult_ErmakovAA.Location = new Point(503, 12);
+            groupBoxResult_ErmakovAA.Name = "groupBoxResult_ErmakovAA";
+            groupBoxResult_ErmakovAA.Size = new Size(285, 414);
+            groupBoxResult_ErmakovAA.TabIndex = 2;
+            groupBoxResult_ErmakovAA.TabStop = false;
+            groupBoxResult_ErmakovAA.Text = "Вывод данных";
             // 
-            // labelResult_SBI
+            // labelResult_ErmakovAA
             // 
-            labelResult_SBI.AutoSize = true;
-            labelResult_SBI.Location = new Point(6, 23);
-            labelResult_SBI.Name = "labelResult_SBI";
-            labelResult_SBI.Size = new Size(63, 15);
-            labelResult_SBI.TabIndex = 2;
-            labelResult_SBI.Text = "Результат:";
+            labelResult_ErmakovAA.AutoSize = true;
+            labelResult_ErmakovAA.Location = new Point(6, 23);
+            labelResult_ErmakovAA.Name = "labelResult_ErmakovAA";
+            labelResult_ErmakovAA.Size = new Size(63, 15);
+            labelResult_ErmakovAA.TabIndex = 2;
+            labelResult_ErmakovAA.Text = "Результат:";
             // 
-            // textBoxResult_SBI
+            // textBoxResult_ErmakovAA
             // 
-            textBoxResult_SBI.BorderStyle = BorderStyle.None;
-            textBoxResult_SBI.Font = new Font("Consolas", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            textBoxResult_SBI.Location = new Point(6, 41);
-            textBoxResult_SBI.Multiline = true;
-            textBoxResult_SBI.Name = "textBoxResult_SBI";
-            textBoxResult_SBI.ReadOnly = true;
-            textBoxResult_SBI.ScrollBars = ScrollBars.Vertical;
-            textBoxResult_SBI.Size = new Size(273, 367);
-            textBoxResult_SBI.TabIndex = 1;
+            textBoxResult_ErmakovAA.BorderStyle = BorderStyle.None;
+            textBoxResult_ErmakovAA.Font = new Font("Consolas", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            textBoxResult_ErmakovAA.Location = new Point(6, 41);
+            textBoxResult_ErmakovAA.Multiline = true;
+            textBoxResult_ErmakovAA.Name = "textBoxResult_ErmakovAA";
+            textBoxResult_ErmakovAA.ReadOnly = true;
+            textBoxResult_ErmakovAA.ScrollBars = ScrollBars.Vertical;
+            textBoxResult_ErmakovAA.Size = new Size(273, 367);
+            textBoxResult_ErmakovAA.TabIndex = 1;
             // 
-            // groupBoxInput_SBI
+            // groupBoxInput_ErmakovAA
             // 
-            groupBoxInput_SBI.Controls.Add(label2);
-            groupBoxInput_SBI.Controls.Add(textBoxStopStep_SBI);
-            groupBoxInput_SBI.Controls.Add(label1);
-            groupBoxInput_SBI.Controls.Add(textBoxStartStep_SBI);
-            groupBoxInput_SBI.Location = new Point(12, 326);
-            groupBoxInput_SBI.Name = "groupBoxInput_SBI";
-            groupBoxInput_SBI.Size = new Size(273, 100);
-            groupBoxInput_SBI.TabIndex = 3;
-            groupBoxInput_SBI.TabStop = false;
-            groupBoxInput_SBI.Text = "Ввод данных";
+            groupBoxInput_ErmakovAA.Controls.Add(label2);
+            groupBoxInput_ErmakovAA.Controls.Add(textBoxStopStep_ErmakovAA);
+            groupBoxInput_ErmakovAA.Controls.Add(label1);
+            groupBoxInput_ErmakovAA.Controls.Add(textBoxStartStep_ErmakovAA);
+            groupBoxInput_ErmakovAA.Location = new Point(12, 326);
+            groupBoxInput_ErmakovAA.Name = "groupBoxInput_ErmakovAA";
+            groupBoxInput_ErmakovAA.Size = new Size(273, 100);
+            groupBoxInput_ErmakovAA.TabIndex = 3;
+            groupBoxInput_ErmakovAA.TabStop = false;
+            groupBoxInput_ErmakovAA.Text = "Ввод данных";
             // 
             // label2
             // 
@@ -122,13 +127,13 @@
             label2.TabIndex = 5;
             label2.Text = "Конец шага:";
             // 
-            // textBoxStopStep_SBI
+            // textBoxStopStep_ErmakovAA
             // 
-            textBoxStopStep_SBI.Location = new Point(140, 53);
-            textBoxStopStep_SBI.Name = "textBoxStopStep_SBI";
-            textBoxStopStep_SBI.Size = new Size(128, 23);
-            textBoxStopStep_SBI.TabIndex = 4;
-            textBoxStopStep_SBI.KeyPress += textBoxSteps_SBI_KeyPress;
+            textBoxStopStep_ErmakovAA.Location = new Point(140, 53);
+            textBoxStopStep_ErmakovAA.Name = "textBoxStopStep_ErmakovAA";
+            textBoxStopStep_ErmakovAA.Size = new Size(128, 23);
+            textBoxStopStep_ErmakovAA.TabIndex = 4;
+            textBoxStopStep_ErmakovAA.KeyPress += textBoxSteps_ErmakovAA_KeyPress;
             // 
             // label1
             // 
@@ -139,70 +144,70 @@
             label1.TabIndex = 3;
             label1.Text = "Старт шага:";
             // 
-            // textBoxStartStep_SBI
+            // textBoxStartStep_ErmakovAA
             // 
-            textBoxStartStep_SBI.Location = new Point(6, 53);
-            textBoxStartStep_SBI.Name = "textBoxStartStep_SBI";
-            textBoxStartStep_SBI.Size = new Size(128, 23);
-            textBoxStartStep_SBI.TabIndex = 0;
-            textBoxStartStep_SBI.KeyPress += textBoxSteps_SBI_KeyPress;
+            textBoxStartStep_ErmakovAA.Location = new Point(6, 53);
+            textBoxStartStep_ErmakovAA.Name = "textBoxStartStep_ErmakovAA";
+            textBoxStartStep_ErmakovAA.Size = new Size(128, 23);
+            textBoxStartStep_ErmakovAA.TabIndex = 0;
+            textBoxStartStep_ErmakovAA.KeyPress += textBoxSteps_ErmakovAA_KeyPress;
             // 
-            // buttonDone_SBI
+            // buttonDone_ErmakovAA
             // 
-            buttonDone_SBI.BackColor = SystemColors.ActiveCaption;
-            buttonDone_SBI.Location = new Point(363, 337);
-            buttonDone_SBI.Name = "buttonDone_SBI";
-            buttonDone_SBI.Size = new Size(134, 89);
-            buttonDone_SBI.TabIndex = 5;
-            buttonDone_SBI.Text = "Выполнить";
-            buttonDone_SBI.UseVisualStyleBackColor = false;
-            buttonDone_SBI.Click += buttonDone_Click;
+            buttonDone_ErmakovAA.BackColor = SystemColors.ActiveCaption;
+            buttonDone_ErmakovAA.Location = new Point(363, 337);
+            buttonDone_ErmakovAA.Name = "buttonDone_ErmakovAA";
+            buttonDone_ErmakovAA.Size = new Size(134, 89);
+            buttonDone_ErmakovAA.TabIndex = 5;
+            buttonDone_ErmakovAA.Text = "Выполнить";
+            buttonDone_ErmakovAA.UseVisualStyleBackColor = false;
+            buttonDone_ErmakovAA.Click += buttonDone_Click;
             // 
-            // buttonHelp_SBI
+            // buttonHelp_ErmakovAA
             // 
-            buttonHelp_SBI.BackColor = SystemColors.ActiveCaption;
-            buttonHelp_SBI.Location = new Point(291, 337);
-            buttonHelp_SBI.Name = "buttonHelp_SBI";
-            buttonHelp_SBI.Size = new Size(66, 89);
-            buttonHelp_SBI.TabIndex = 6;
-            buttonHelp_SBI.Text = "Справка";
-            buttonHelp_SBI.UseVisualStyleBackColor = false;
-            buttonHelp_SBI.Click += buttonHelp_SBI_Click;
+            buttonHelp_ErmakovAA.BackColor = SystemColors.ActiveCaption;
+            buttonHelp_ErmakovAA.Location = new Point(291, 337);
+            buttonHelp_ErmakovAA.Name = "buttonHelp_ErmakovAA";
+            buttonHelp_ErmakovAA.Size = new Size(66, 89);
+            buttonHelp_ErmakovAA.TabIndex = 6;
+            buttonHelp_ErmakovAA.Text = "Справка";
+            buttonHelp_ErmakovAA.UseVisualStyleBackColor = false;
+            buttonHelp_ErmakovAA.Click += buttonHelp_ErmakovAA_Click;
             // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(buttonHelp_SBI);
-            Controls.Add(buttonDone_SBI);
-            Controls.Add(groupBoxInput_SBI);
-            Controls.Add(groupBoxResult_SBI);
-            Controls.Add(groupBoxTask_SBI);
+            Controls.Add(buttonHelp_ErmakovAA);
+            Controls.Add(buttonDone_ErmakovAA);
+            Controls.Add(groupBoxInput_ErmakovAA);
+            Controls.Add(groupBoxResult_ErmakovAA);
+            Controls.Add(groupBoxTask_ErmakovAA);
             Name = "FormMain";
             Text = "Спринт 6 | Таск 1 | Вариант 6 | Ермаков А.А.";
-            groupBoxTask_SBI.ResumeLayout(false);
-            groupBoxTask_SBI.PerformLayout();
-            groupBoxResult_SBI.ResumeLayout(false);
-            groupBoxResult_SBI.PerformLayout();
-            groupBoxInput_SBI.ResumeLayout(false);
-            groupBoxInput_SBI.PerformLayout();
+            groupBoxTask_ErmakovAA.ResumeLayout(false);
+            groupBoxTask_ErmakovAA.PerformLayout();
+            groupBoxResult_ErmakovAA.ResumeLayout(false);
+            groupBoxResult_ErmakovAA.PerformLayout();
+            groupBoxInput_ErmakovAA.ResumeLayout(false);
+            groupBoxInput_ErmakovAA.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private GroupBox groupBoxTask_SBI;
-        private TextBox textBoxTask_SBI;
-        private GroupBox groupBoxResult_SBI;
-        private GroupBox groupBoxInput_SBI;
+        private GroupBox groupBoxTask_ErmakovAA;
+        private TextBox textBoxTask_ErmakovAA;
+        private GroupBox groupBoxResult_ErmakovAA;
+        private GroupBox groupBoxInput_ErmakovAA;
         private Label label1;
-        private TextBox textBoxStartStep_SBI;
+        private TextBox textBoxStartStep_ErmakovAA;
         private Label label2;
-        private TextBox textBoxStopStep_SBI;
-        private Label labelResult_SBI;
-        private TextBox textBoxResult_SBI;
-        private Button buttonDone_SBI;
-        private Button buttonHelp_SBI;
+        private TextBox textBoxStopStep_ErmakovAA;
+        private Label labelResult_ErmakovAA;
+        private TextBox textBoxResult_ErmakovAA;
+        private Button buttonDone_ErmakovAA;
+        private Button buttonHelp_ErmakovAA;
     }
 }
