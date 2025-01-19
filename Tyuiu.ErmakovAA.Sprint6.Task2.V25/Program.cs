@@ -14,4 +14,4 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task2.V25
             Application.Run(new FormMain());
         }
     }
-}
+} 
