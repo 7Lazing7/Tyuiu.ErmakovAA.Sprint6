@@ -12,12 +12,12 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task6.V6.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    string[] words = line.Split('_', (char)StringSplitOptions.RemoveEmptyEntries);
+                    string[] words = line.Split(' ', (char)StringSplitOptions.RemoveEmptyEntries);
                     foreach (string word in words)
                     {
                         if (word.Contains("b"))
                         {
-                            resStr = resStr + " " + word;
+                            resStr = " " + word;
                         }
                     }
 
