@@ -6,25 +6,27 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task6.V6.Lib
     {
         public string CollectTextFromFile(string path)
         {
-            string resStr = " ";
+            string resStr = "";
             using (StreamReader reader = new StreamReader(path))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    string[] words = line.Split(' ', (char)StringSplitOptions.RemoveEmptyEntries);
+                    string[] words = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
                     foreach (string word in words)
                     {
                         if (word.Contains("b"))
                         {
-                            resStr = resStr + " " + word;
+                            if (resStr.Length > 0)
+                            {
+                                resStr += " ";
+                            }
+                            resStr += word;
                         }
                     }
-
                 }
             }
             return resStr;
-
         }
     }
 }
