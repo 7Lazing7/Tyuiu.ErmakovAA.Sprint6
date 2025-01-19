@@ -30,19 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout));
             panel1 = new Panel();
-            buttonExit_SBI = new Button();
-            buttonOk_SBI = new Button();
-            textBoxAbout_SBI = new TextBox();
-            pictureBox_SBI = new PictureBox();
+            buttonExit_ErmakovAA = new Button();
+            buttonOk_ErmakovAA = new Button();
+            textBoxAbout_ErmakovAA = new TextBox();
+            pictureBox_ErmakovAA = new PictureBox();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_SBI).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_ErmakovAA).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.Controls.Add(buttonExit_SBI);
-            panel1.Controls.Add(buttonOk_SBI);
-            panel1.Controls.Add(textBoxAbout_SBI);
+            panel1.Controls.Add(buttonExit_ErmakovAA);
+            panel1.Controls.Add(buttonOk_ErmakovAA);
+            panel1.Controls.Add(textBoxAbout_ErmakovAA);
             panel1.Dock = DockStyle.Right;
             panel1.Location = new Point(183, 0);
             panel1.Name = "panel1";
@@ -50,50 +50,50 @@
             panel1.Size = new Size(398, 254);
             panel1.TabIndex = 3;
             // 
-            // buttonExit_SBI
+            // buttonExit_ErmakovAA
             // 
-            buttonExit_SBI.Location = new Point(285, 202);
-            buttonExit_SBI.Name = "buttonExit_SBI";
-            buttonExit_SBI.Size = new Size(101, 44);
-            buttonExit_SBI.TabIndex = 2;
-            buttonExit_SBI.Text = "Окей";
-            buttonExit_SBI.UseVisualStyleBackColor = true;
-            buttonExit_SBI.Click += buttonExit_SBI_Click;
+            buttonExit_ErmakovAA.Location = new Point(285, 202);
+            buttonExit_ErmakovAA.Name = "buttonExit_ErmakovAA";
+            buttonExit_ErmakovAA.Size = new Size(101, 44);
+            buttonExit_ErmakovAA.TabIndex = 2;
+            buttonExit_ErmakovAA.Text = "Окей";
+            buttonExit_ErmakovAA.UseVisualStyleBackColor = true;
+            buttonExit_ErmakovAA.Click += buttonExit_ErmakovAA_Click;
             // 
-            // buttonOk_SBI
+            // buttonOk_ErmakovAA
             // 
-            buttonOk_SBI.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            buttonOk_SBI.Location = new Point(467, 354);
-            buttonOk_SBI.Name = "buttonOk_SBI";
-            buttonOk_SBI.Size = new Size(112, 45);
-            buttonOk_SBI.TabIndex = 1;
-            buttonOk_SBI.Text = "Окей";
-            buttonOk_SBI.UseVisualStyleBackColor = true;
+            buttonOk_ErmakovAA.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            buttonOk_ErmakovAA.Location = new Point(467, 354);
+            buttonOk_ErmakovAA.Name = "buttonOk_ErmakovAA";
+            buttonOk_ErmakovAA.Size = new Size(112, 45);
+            buttonOk_ErmakovAA.TabIndex = 1;
+            buttonOk_ErmakovAA.Text = "Окей";
+            buttonOk_ErmakovAA.UseVisualStyleBackColor = true;
             // 
-            // textBoxAbout_SBI
+            // textBoxAbout_ErmakovAA
             // 
-            textBoxAbout_SBI.BorderStyle = BorderStyle.None;
-            textBoxAbout_SBI.Dock = DockStyle.Fill;
-            textBoxAbout_SBI.Font = new Font("Segoe UI", 10F);
-            textBoxAbout_SBI.Location = new Point(5, 5);
-            textBoxAbout_SBI.Multiline = true;
-            textBoxAbout_SBI.Name = "textBoxAbout_SBI";
-            textBoxAbout_SBI.ReadOnly = true;
-            textBoxAbout_SBI.Size = new Size(388, 244);
-            textBoxAbout_SBI.TabIndex = 0;
-            textBoxAbout_SBI.Text = resources.GetString("textBoxAbout_SBI.Text");
+            textBoxAbout_ErmakovAA.BorderStyle = BorderStyle.None;
+            textBoxAbout_ErmakovAA.Dock = DockStyle.Fill;
+            textBoxAbout_ErmakovAA.Font = new Font("Segoe UI", 10F);
+            textBoxAbout_ErmakovAA.Location = new Point(5, 5);
+            textBoxAbout_ErmakovAA.Multiline = true;
+            textBoxAbout_ErmakovAA.Name = "textBoxAbout_ErmakovAA";
+            textBoxAbout_ErmakovAA.ReadOnly = true;
+            textBoxAbout_ErmakovAA.Size = new Size(388, 244);
+            textBoxAbout_ErmakovAA.TabIndex = 0;
+            textBoxAbout_ErmakovAA.Text = resources.GetString("textBoxAbout_ErmakovAA.Text");
             // 
-            // pictureBox_SBI
+            // pictureBox_ErmakovAA
             // 
-            pictureBox_SBI.ErrorImage = null;
-            pictureBox_SBI.Image = (Image)resources.GetObject("pictureBox_SBI.Image");
-            pictureBox_SBI.InitialImage = null;
-            pictureBox_SBI.Location = new Point(6, 5);
-            pictureBox_SBI.Name = "pictureBox_SBI";
-            pictureBox_SBI.Size = new Size(168, 245);
-            pictureBox_SBI.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_SBI.TabIndex = 4;
-            pictureBox_SBI.TabStop = false;
+            pictureBox_ErmakovAA.ErrorImage = null;
+            pictureBox_ErmakovAA.Image = (Image)resources.GetObject("pictureBox_ErmakovAA.Image");
+            pictureBox_ErmakovAA.InitialImage = null;
+            pictureBox_ErmakovAA.Location = new Point(6, 5);
+            pictureBox_ErmakovAA.Name = "pictureBox_ErmakovAA";
+            pictureBox_ErmakovAA.Size = new Size(168, 245);
+            pictureBox_ErmakovAA.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_ErmakovAA.TabIndex = 4;
+            pictureBox_ErmakovAA.TabStop = false;
           
             // 
             // FormAbout
@@ -102,22 +102,22 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(581, 254);
             Controls.Add(panel1);
-            Controls.Add(pictureBox_SBI);
+            Controls.Add(pictureBox_ErmakovAA);
             MinimumSize = new Size(597, 293);
             Name = "FormAbout";
             Text = "О программе";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_SBI).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_ErmakovAA).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel panel1;
-        private Button buttonOk_SBI;
-        private TextBox textBoxAbout_SBI;
-        private PictureBox pictureBox_SBI;
-        private Button buttonExit_SBI;
+        private Button buttonOk_ErmakovAA;
+        private TextBox textBoxAbout_ErmakovAA;
+        private PictureBox pictureBox_ErmakovAA;
+        private Button buttonExit_ErmakovAA;
     }
 }

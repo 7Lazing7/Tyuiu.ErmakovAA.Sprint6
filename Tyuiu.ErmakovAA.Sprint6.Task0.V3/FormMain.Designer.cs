@@ -48,7 +48,7 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task0.V3
             groupBoxOutput__ErmakovAA.SuspendLayout();
             SuspendLayout();
             // 
-            // groupBoxTask_SBI
+            // groupBoxTask_ErmakovAA
             // 
             groupBoxTask_ErmakovAA.Controls.Add(pictureBox_ErmakovAA);
             groupBoxTask_ErmakovAA.Controls.Add(textBoxTask_ErmakovAA);
@@ -83,7 +83,7 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task0.V3
             textBoxTask_ErmakovAA.Text = "Дано выражение вычислить его значение при x = 3, результат вывести в TextBox. Округлить до трёх знаков после запятой. Графический интерфейс оформить по шаблону из лекции.";
             textBoxTask_ErmakovAA.TextChanged += textBoxTask_ErmakovAA_TextChanged;
             // 
-            // groupBoxInput_SBI
+            // groupBoxInput_ErmakovAA
             // 
             groupBoxInput_ErmakovAA.Controls.Add(label1);
             groupBoxInput_ErmakovAA.Controls.Add(textBoxX_ErmakovAA);
@@ -105,11 +105,11 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task0.V3
             label1.TabIndex = 3;
             label1.Text = "Переменная X:";
             // 
-            // textBoxX_SBI
+            // textBoxX_ErmakovAA
             // 
             textBoxX_ErmakovAA.Font = new Font("Segoe UI", 10F);
             textBoxX_ErmakovAA.Location = new Point(22, 57);
-            textBoxX_ErmakovAA.Name = "textBoxX_SBI";
+            textBoxX_ErmakovAA.Name = "textBoxX_ErmakovAA";
             textBoxX_ErmakovAA.Size = new Size(108, 25);
             textBoxX_ErmakovAA.TabIndex = 0;
             textBoxX_ErmakovAA.KeyPress += textBoxVarX_ErmakovAA_KeyPress;

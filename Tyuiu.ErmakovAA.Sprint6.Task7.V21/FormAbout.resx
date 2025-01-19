@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBoxAbout_SBI.Text" xml:space="preserve">
+  <data name="textBoxAbout_ErmakovAA.Text" xml:space="preserve">
     <value>Разработчик: Ермаков А.А.
 группа ПКТб-24-1
 
@@ -131,7 +131,7 @@
 </value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox_SBI.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pictureBox_ErmakovAA.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsN
         DhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQU
@@ -425,7 +425,7 @@
         Tt9JsX71MdjQBJvoQjvRTNp/WqAf8tI60qY+9Q9SBHup+2h1Hz0xqAB/kpKk4qOgBvy7d1OcU6kdqAEo
         +/RQ/wDeoAY9Mzvp9MoAc602ikaoAWk/ioTNGf4aAFopOaKANjH7yjYKWiuQ1E276WnJTaAE20//AJa0
         3Gyn530AM2/xUU+j79ADPv07bS7P4qKsBlP+ahKENABsoQU96Z81BAPT0xQlFADOH+ainoRS4D0AJR9y
-        nUjrQAlMel20mD89AEb/AN6qGpSBId2dlX5MpGa5zW74RK+/+GpqPlibRXMctr115m/PziuLvJg8kn1+
+        nUjrQAlMel20mD89AEb/AN6qGpErmakovAAd2dlX5MpGa5zW74RK+/+GpqPlibRXMctr115m/PziuLvJg8kn1+
         VK3dbuklWVw/3eFrn0VZI9z9WNeU3I9WkuUqpaO8gffsWpbiZPX7wq5PL5UO0f8Aj1Zn2czTSKh/3azN
         StMxlY7PSoPsbvHuk+QLW3a2aRR7nT5/9qqd/JBHvx8+41MjaLMO8kji+X+7WHeXmzZgpsU81PrNwPnZ
         H2PXHz+b87XD/JXOdMUZviHXbh/MSL5Cu5VevNtZ09JY3lufnkrsdZmjTp/Ea47XrxPspZPm21rTXKXU
@@ -1988,7 +1988,7 @@
         qvPCLhSrpvStUzSL5TDnH7kJ/rJF+aqb/wB90+X7uyrko/fOndelRou/LV0HYmYWpaal3GFdE37v3af3
         68/8Q+DJU8+e3RHKjmNa9TSNYpgrp8n8L/3KhuII/Jf8q5KuHjUjqdlOvKnsfOn2l+dg+dTtq19oHlj+
         /wDeZK7Dx/4USztxdWYfC/LsX/arg/NNvI/mI+zjP0r5qrh5UZH0FKrGtG5o/bv3fmH76/KP9urCXXlr
-        u75X5F9azribZ2+f+FKlhuwnlq8f7xhzXOa8psbi+/f8/Gdn1oSaTb+7j2bj/FWf/rPl9quRTPJIfRQK
+        u75X5F9azribZ2+f+FKlhuwnlq8f7xhzXOa8pErmakovAA+/f8/Gdn1oSaTb+7j2bj/FWf/rPl9quRTPJIfRQK
         2iZNGghT7sf+y0m/7lSeV5jef8+cVTglG5E8vyqvwSo/zfx5w3/Aa1iZyI4oikf9/n7lLKQ/+sP7vZ9x
         v46e7IkMao/z93qF/kkDDZsWqIKsmbibcfkdhvb/AGEqCSEu0aRlEDGrDybIzvRE5w1JuKTcp3+V6bNb
         lOWF0unSB0y3/jiCoX8x5Hb7gZcb6v8A7tPnPrVOUSPIfMk8zndsT7lYmiZTcRyTbTsfbz/3zUTqHaRp

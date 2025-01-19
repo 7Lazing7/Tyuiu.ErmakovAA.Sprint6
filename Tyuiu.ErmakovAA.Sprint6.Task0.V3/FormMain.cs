@@ -12,7 +12,7 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task0.V3
             DataService dataService = new DataService();
             try
             {
-                textBoxResult__ErmakovAA.Text = Convert.ToString(dataService.Calculate(Convert.ToInt32(textBoxX_SBI.Text)));
+                textBoxResult__ErmakovAA.Text = Convert.ToString(dataService.Calculate(Convert.ToInt32(textBoxX_ErmakovAA.Text)));
             }
             catch
             {

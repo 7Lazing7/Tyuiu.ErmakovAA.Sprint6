@@ -16,7 +16,7 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task7.V21
         {
             InitializeComponent();
         }
-        private void buttonExit_SBI_Click(object sender, EventArgs e)
+        private void buttonExit_ErmakovAA_Click(object sender, EventArgs e)
         {
             Close();
         }

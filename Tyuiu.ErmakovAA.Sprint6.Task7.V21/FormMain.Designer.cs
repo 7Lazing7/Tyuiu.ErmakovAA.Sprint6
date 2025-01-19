@@ -30,116 +30,116 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            panelButtons_SBI = new Panel();
-            buttonSaveFile_SBI = new Button();
-            buttonAbout_SBI = new Button();
-            buttonHelp_SBI = new Button();
-            buttonDone_SBI = new Button();
-            buttonOpenFile_SBI = new Button();
+            panelButtons_ErmakovAA = new Panel();
+            buttonSaveFile_ErmakovAA = new Button();
+            buttonAbout_ErmakovAA = new Button();
+            buttonHelp_ErmakovAA = new Button();
+            buttonDone_ErmakovAA = new Button();
+            buttonOpenFile_ErmakovAA = new Button();
             panel2 = new Panel();
-            groupBoxTask_SBI = new GroupBox();
-            textBoxTask_SBI = new TextBox();
+            groupBoxTask_ErmakovAA = new GroupBox();
+            textBoxTask_ErmakovAA = new TextBox();
             panel1 = new Panel();
             tableLayoutPanel1 = new TableLayoutPanel();
-            groupBoxInPut_SBI = new GroupBox();
-            dataGridViewInPut_SBI = new DataGridView();
-            groupBoxOutPut_SBI = new GroupBox();
-            dataGridViewOutPut_SBI = new DataGridView();
-            toolTip_SBI = new ToolTip(components);
-            openFileDialog_SBI = new OpenFileDialog();
-            saveFileDialog_SBI = new SaveFileDialog();
-            panelButtons_SBI.SuspendLayout();
-            groupBoxTask_SBI.SuspendLayout();
+            groupBoxInPut_ErmakovAA = new GroupBox();
+            dataGridViewInPut_ErmakovAA = new DataGridView();
+            groupBoxOutPut_ErmakovAA = new GroupBox();
+            dataGridViewOutPut_ErmakovAA = new DataGridView();
+            toolTip_ErmakovAA = new ToolTip(components);
+            openFileDialog_ErmakovAA = new OpenFileDialog();
+            saveFileDialog_ErmakovAA = new SaveFileDialog();
+            panelButtons_ErmakovAA.SuspendLayout();
+            groupBoxTask_ErmakovAA.SuspendLayout();
             panel1.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
-            groupBoxInPut_SBI.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewInPut_SBI).BeginInit();
-            groupBoxOutPut_SBI.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewOutPut_SBI).BeginInit();
+            groupBoxInPut_ErmakovAA.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewInPut_ErmakovAA).BeginInit();
+            groupBoxOutPut_ErmakovAA.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewOutPut_ErmakovAA).BeginInit();
             SuspendLayout();
             // 
-            // panelButtons_SBI
+            // panelButtons_ErmakovAA
             // 
-            panelButtons_SBI.BorderStyle = BorderStyle.Fixed3D;
-            panelButtons_SBI.Controls.Add(buttonSaveFile_SBI);
-            panelButtons_SBI.Controls.Add(buttonAbout_SBI);
-            panelButtons_SBI.Controls.Add(buttonHelp_SBI);
-            panelButtons_SBI.Controls.Add(buttonDone_SBI);
-            panelButtons_SBI.Controls.Add(buttonOpenFile_SBI);
-            panelButtons_SBI.Controls.Add(panel2);
-            panelButtons_SBI.Dock = DockStyle.Top;
-            panelButtons_SBI.Location = new Point(0, 0);
-            panelButtons_SBI.Name = "panelButtons_SBI";
-            panelButtons_SBI.Size = new Size(800, 72);
-            panelButtons_SBI.TabIndex = 1;
+            panelButtons_ErmakovAA.BorderStyle = BorderStyle.Fixed3D;
+            panelButtons_ErmakovAA.Controls.Add(buttonSaveFile_ErmakovAA);
+            panelButtons_ErmakovAA.Controls.Add(buttonAbout_ErmakovAA);
+            panelButtons_ErmakovAA.Controls.Add(buttonHelp_ErmakovAA);
+            panelButtons_ErmakovAA.Controls.Add(buttonDone_ErmakovAA);
+            panelButtons_ErmakovAA.Controls.Add(buttonOpenFile_ErmakovAA);
+            panelButtons_ErmakovAA.Controls.Add(panel2);
+            panelButtons_ErmakovAA.Dock = DockStyle.Top;
+            panelButtons_ErmakovAA.Location = new Point(0, 0);
+            panelButtons_ErmakovAA.Name = "panelButtons_ErmakovAA";
+            panelButtons_ErmakovAA.Size = new Size(800, 72);
+            panelButtons_ErmakovAA.TabIndex = 1;
             // 
-            // buttonSaveFile_SBI
+            // buttonSaveFile_ErmakovAA
             // 
-            buttonSaveFile_SBI.BackColor = Color.Transparent;
-            buttonSaveFile_SBI.BackgroundImageLayout = ImageLayout.Center;
-            buttonSaveFile_SBI.Enabled = false;
-            buttonSaveFile_SBI.Image = Properties.Resources.page_save;
-            buttonSaveFile_SBI.Location = new Point(171, 3);
-            buttonSaveFile_SBI.Name = "buttonSaveFile_SBI";
-            buttonSaveFile_SBI.Size = new Size(78, 62);
-            buttonSaveFile_SBI.TabIndex = 6;
-            toolTip_SBI.SetToolTip(buttonSaveFile_SBI, "Сохранить обработанные данные в файл в формате CSV");
-            buttonSaveFile_SBI.UseVisualStyleBackColor = false;
-            buttonSaveFile_SBI.Click += buttonSaveFile_SBI_Click;
-            buttonSaveFile_SBI.MouseEnter += buttonSaveFile_SBI_MouseEnter;
+            buttonSaveFile_ErmakovAA.BackColor = Color.Transparent;
+            buttonSaveFile_ErmakovAA.BackgroundImageLayout = ImageLayout.Center;
+            buttonSaveFile_ErmakovAA.Enabled = false;
+            buttonSaveFile_ErmakovAA.Image = Properties.Resources.page_save;
+            buttonSaveFile_ErmakovAA.Location = new Point(171, 3);
+            buttonSaveFile_ErmakovAA.Name = "buttonSaveFile_ErmakovAA";
+            buttonSaveFile_ErmakovAA.Size = new Size(78, 62);
+            buttonSaveFile_ErmakovAA.TabIndex = 6;
+            toolTip_ErmakovAA.SetToolTip(buttonSaveFile_ErmakovAA, "Сохранить обработанные данные в файл в формате CSV");
+            buttonSaveFile_ErmakovAA.UseVisualStyleBackColor = false;
+            buttonSaveFile_ErmakovAA.Click += buttonSaveFile_ErmakovAA_Click;
+            buttonSaveFile_ErmakovAA.MouseEnter += buttonSaveFile_ErmakovAA_MouseEnter;
             // 
-            // buttonAbout_SBI
+            // buttonAbout_ErmakovAA
             // 
-            buttonAbout_SBI.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            buttonAbout_SBI.BackColor = Color.Transparent;
-            buttonAbout_SBI.BackgroundImageLayout = ImageLayout.Center;
-            buttonAbout_SBI.Image = Properties.Resources.help;
-            buttonAbout_SBI.Location = new Point(715, 3);
-            buttonAbout_SBI.Name = "buttonAbout_SBI";
-            buttonAbout_SBI.Size = new Size(78, 62);
-            buttonAbout_SBI.TabIndex = 5;
-            buttonAbout_SBI.UseVisualStyleBackColor = false;
-            buttonAbout_SBI.Click += buttonAbout_SBI_Click;
+            buttonAbout_ErmakovAA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            buttonAbout_ErmakovAA.BackColor = Color.Transparent;
+            buttonAbout_ErmakovAA.BackgroundImageLayout = ImageLayout.Center;
+            buttonAbout_ErmakovAA.Image = Properties.Resources.help;
+            buttonAbout_ErmakovAA.Location = new Point(715, 3);
+            buttonAbout_ErmakovAA.Name = "buttonAbout_ErmakovAA";
+            buttonAbout_ErmakovAA.Size = new Size(78, 62);
+            buttonAbout_ErmakovAA.TabIndex = 5;
+            buttonAbout_ErmakovAA.UseVisualStyleBackColor = false;
+            buttonAbout_ErmakovAA.Click += buttonAbout_ErmakovAA_Click;
             // 
-            // buttonHelp_SBI
+            // buttonHelp_ErmakovAA
             // 
-            buttonHelp_SBI.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            buttonHelp_SBI.BackColor = Color.Transparent;
-            buttonHelp_SBI.BackgroundImageLayout = ImageLayout.Zoom;
-            buttonHelp_SBI.Location = new Point(1311, 3);
-            buttonHelp_SBI.Name = "buttonHelp_SBI";
-            buttonHelp_SBI.Size = new Size(78, 62);
-            buttonHelp_SBI.TabIndex = 4;
-            buttonHelp_SBI.UseVisualStyleBackColor = false;
+            buttonHelp_ErmakovAA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            buttonHelp_ErmakovAA.BackColor = Color.Transparent;
+            buttonHelp_ErmakovAA.BackgroundImageLayout = ImageLayout.Zoom;
+            buttonHelp_ErmakovAA.Location = new Point(1311, 3);
+            buttonHelp_ErmakovAA.Name = "buttonHelp_ErmakovAA";
+            buttonHelp_ErmakovAA.Size = new Size(78, 62);
+            buttonHelp_ErmakovAA.TabIndex = 4;
+            buttonHelp_ErmakovAA.UseVisualStyleBackColor = false;
             // 
-            // buttonDone_SBI
+            // buttonDone_ErmakovAA
             // 
-            buttonDone_SBI.BackColor = Color.Transparent;
-            buttonDone_SBI.BackgroundImageLayout = ImageLayout.Center;
-            buttonDone_SBI.Enabled = false;
-            buttonDone_SBI.Image = Properties.Resources.page_go;
-            buttonDone_SBI.Location = new Point(87, 3);
-            buttonDone_SBI.Name = "buttonDone_SBI";
-            buttonDone_SBI.Size = new Size(78, 62);
-            buttonDone_SBI.TabIndex = 3;
-            toolTip_SBI.SetToolTip(buttonDone_SBI, "Выполнить обработку данных");
-            buttonDone_SBI.UseVisualStyleBackColor = false;
-            buttonDone_SBI.Click += buttonDone_SBI_Click;
-            buttonDone_SBI.MouseEnter += buttonDone_SBI_MouseEnter;
+            buttonDone_ErmakovAA.BackColor = Color.Transparent;
+            buttonDone_ErmakovAA.BackgroundImageLayout = ImageLayout.Center;
+            buttonDone_ErmakovAA.Enabled = false;
+            buttonDone_ErmakovAA.Image = Properties.Resources.page_go;
+            buttonDone_ErmakovAA.Location = new Point(87, 3);
+            buttonDone_ErmakovAA.Name = "buttonDone_ErmakovAA";
+            buttonDone_ErmakovAA.Size = new Size(78, 62);
+            buttonDone_ErmakovAA.TabIndex = 3;
+            toolTip_ErmakovAA.SetToolTip(buttonDone_ErmakovAA, "Выполнить обработку данных");
+            buttonDone_ErmakovAA.UseVisualStyleBackColor = false;
+            buttonDone_ErmakovAA.Click += buttonDone_ErmakovAA_Click;
+            buttonDone_ErmakovAA.MouseEnter += buttonDone_ErmakovAA_MouseEnter;
             // 
-            // buttonOpenFile_SBI
+            // buttonOpenFile_ErmakovAA
             // 
-            buttonOpenFile_SBI.BackColor = Color.Transparent;
-            buttonOpenFile_SBI.BackgroundImageLayout = ImageLayout.Center;
-            buttonOpenFile_SBI.Image = Properties.Resources.folder_page;
-            buttonOpenFile_SBI.Location = new Point(3, 3);
-            buttonOpenFile_SBI.Name = "buttonOpenFile_SBI";
-            buttonOpenFile_SBI.Size = new Size(78, 62);
-            buttonOpenFile_SBI.TabIndex = 2;
-            toolTip_SBI.SetToolTip(buttonOpenFile_SBI, "Открыть файл для обработки данных в формате CSV\r\n");
-            buttonOpenFile_SBI.UseVisualStyleBackColor = false;
-            buttonOpenFile_SBI.Click += buttonOpenFile_SBI_Click;
-            buttonOpenFile_SBI.MouseEnter += buttonOpenFile_SBI_MouseEnter;
+            buttonOpenFile_ErmakovAA.BackColor = Color.Transparent;
+            buttonOpenFile_ErmakovAA.BackgroundImageLayout = ImageLayout.Center;
+            buttonOpenFile_ErmakovAA.Image = Properties.Resources.folder_page;
+            buttonOpenFile_ErmakovAA.Location = new Point(3, 3);
+            buttonOpenFile_ErmakovAA.Name = "buttonOpenFile_ErmakovAA";
+            buttonOpenFile_ErmakovAA.Size = new Size(78, 62);
+            buttonOpenFile_ErmakovAA.TabIndex = 2;
+            toolTip_ErmakovAA.SetToolTip(buttonOpenFile_ErmakovAA, "Открыть файл для обработки данных в формате CSV\r\n");
+            buttonOpenFile_ErmakovAA.UseVisualStyleBackColor = false;
+            buttonOpenFile_ErmakovAA.Click += buttonOpenFile_ErmakovAA_Click;
+            buttonOpenFile_ErmakovAA.MouseEnter += buttonOpenFile_ErmakovAA_MouseEnter;
             // 
             // panel2
             // 
@@ -148,35 +148,35 @@
             panel2.Size = new Size(800, 76);
             panel2.TabIndex = 1;
             // 
-            // groupBoxTask_SBI
+            // groupBoxTask_ErmakovAA
             // 
-            groupBoxTask_SBI.Controls.Add(textBoxTask_SBI);
-            groupBoxTask_SBI.Dock = DockStyle.Fill;
-            groupBoxTask_SBI.Font = new Font("Segoe UI", 9F);
-            groupBoxTask_SBI.Location = new Point(5, 5);
-            groupBoxTask_SBI.Name = "groupBoxTask_SBI";
-            groupBoxTask_SBI.RightToLeft = RightToLeft.No;
-            groupBoxTask_SBI.Size = new Size(790, 107);
-            groupBoxTask_SBI.TabIndex = 2;
-            groupBoxTask_SBI.TabStop = false;
-            groupBoxTask_SBI.Text = "Условие:";
+            groupBoxTask_ErmakovAA.Controls.Add(textBoxTask_ErmakovAA);
+            groupBoxTask_ErmakovAA.Dock = DockStyle.Fill;
+            groupBoxTask_ErmakovAA.Font = new Font("Segoe UI", 9F);
+            groupBoxTask_ErmakovAA.Location = new Point(5, 5);
+            groupBoxTask_ErmakovAA.Name = "groupBoxTask_ErmakovAA";
+            groupBoxTask_ErmakovAA.RightToLeft = RightToLeft.No;
+            groupBoxTask_ErmakovAA.Size = new Size(790, 107);
+            groupBoxTask_ErmakovAA.TabIndex = 2;
+            groupBoxTask_ErmakovAA.TabStop = false;
+            groupBoxTask_ErmakovAA.Text = "Условие:";
             // 
-            // textBoxTask_SBI
+            // textBoxTask_ErmakovAA
             // 
-            textBoxTask_SBI.BorderStyle = BorderStyle.None;
-            textBoxTask_SBI.Dock = DockStyle.Fill;
-            textBoxTask_SBI.Font = new Font("Segoe UI", 9F);
-            textBoxTask_SBI.Location = new Point(3, 19);
-            textBoxTask_SBI.Multiline = true;
-            textBoxTask_SBI.Name = "textBoxTask_SBI";
-            textBoxTask_SBI.ReadOnly = true;
-            textBoxTask_SBI.Size = new Size(784, 85);
-            textBoxTask_SBI.TabIndex = 0;
-            textBoxTask_SBI.Text = resources.GetString("textBoxTask_SBI.Text");
+            textBoxTask_ErmakovAA.BorderStyle = BorderStyle.None;
+            textBoxTask_ErmakovAA.Dock = DockStyle.Fill;
+            textBoxTask_ErmakovAA.Font = new Font("Segoe UI", 9F);
+            textBoxTask_ErmakovAA.Location = new Point(3, 19);
+            textBoxTask_ErmakovAA.Multiline = true;
+            textBoxTask_ErmakovAA.Name = "textBoxTask_ErmakovAA";
+            textBoxTask_ErmakovAA.ReadOnly = true;
+            textBoxTask_ErmakovAA.Size = new Size(784, 85);
+            textBoxTask_ErmakovAA.TabIndex = 0;
+            textBoxTask_ErmakovAA.Text = resources.GetString("textBoxTask_ErmakovAA.Text");
             // 
             // panel1
             // 
-            panel1.Controls.Add(groupBoxTask_SBI);
+            panel1.Controls.Add(groupBoxTask_ErmakovAA);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 72);
             panel1.Name = "panel1";
@@ -189,8 +189,8 @@
             tableLayoutPanel1.ColumnCount = 2;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Controls.Add(groupBoxInPut_SBI, 0, 0);
-            tableLayoutPanel1.Controls.Add(groupBoxOutPut_SBI, 1, 0);
+            tableLayoutPanel1.Controls.Add(groupBoxInPut_ErmakovAA, 0, 0);
+            tableLayoutPanel1.Controls.Add(groupBoxOutPut_ErmakovAA, 1, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 189);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -200,62 +200,62 @@
             tableLayoutPanel1.Size = new Size(800, 261);
             tableLayoutPanel1.TabIndex = 4;
             // 
-            // groupBoxInPut_SBI
+            // groupBoxInPut_ErmakovAA
             // 
-            groupBoxInPut_SBI.Controls.Add(dataGridViewInPut_SBI);
-            groupBoxInPut_SBI.Dock = DockStyle.Fill;
-            groupBoxInPut_SBI.Location = new Point(6, 6);
-            groupBoxInPut_SBI.Name = "groupBoxInPut_SBI";
-            groupBoxInPut_SBI.Size = new Size(391, 249);
-            groupBoxInPut_SBI.TabIndex = 0;
-            groupBoxInPut_SBI.TabStop = false;
-            groupBoxInPut_SBI.Text = "Ввод:";
+            groupBoxInPut_ErmakovAA.Controls.Add(dataGridViewInPut_ErmakovAA);
+            groupBoxInPut_ErmakovAA.Dock = DockStyle.Fill;
+            groupBoxInPut_ErmakovAA.Location = new Point(6, 6);
+            groupBoxInPut_ErmakovAA.Name = "groupBoxInPut_ErmakovAA";
+            groupBoxInPut_ErmakovAA.Size = new Size(391, 249);
+            groupBoxInPut_ErmakovAA.TabIndex = 0;
+            groupBoxInPut_ErmakovAA.TabStop = false;
+            groupBoxInPut_ErmakovAA.Text = "Ввод:";
             // 
-            // dataGridViewInPut_SBI
+            // dataGridViewInPut_ErmakovAA
             // 
-            dataGridViewInPut_SBI.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewInPut_SBI.ColumnHeadersVisible = false;
-            dataGridViewInPut_SBI.Dock = DockStyle.Fill;
-            dataGridViewInPut_SBI.Location = new Point(3, 19);
-            dataGridViewInPut_SBI.Name = "dataGridViewInPut_SBI";
-            dataGridViewInPut_SBI.RowHeadersVisible = false;
-            dataGridViewInPut_SBI.Size = new Size(385, 227);
-            dataGridViewInPut_SBI.TabIndex = 0;
+            dataGridViewInPut_ErmakovAA.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewInPut_ErmakovAA.ColumnHeadersVisible = false;
+            dataGridViewInPut_ErmakovAA.Dock = DockStyle.Fill;
+            dataGridViewInPut_ErmakovAA.Location = new Point(3, 19);
+            dataGridViewInPut_ErmakovAA.Name = "dataGridViewInPut_ErmakovAA";
+            dataGridViewInPut_ErmakovAA.RowHeadersVisible = false;
+            dataGridViewInPut_ErmakovAA.Size = new Size(385, 227);
+            dataGridViewInPut_ErmakovAA.TabIndex = 0;
             // 
-            // groupBoxOutPut_SBI
+            // groupBoxOutPut_ErmakovAA
             // 
-            groupBoxOutPut_SBI.Controls.Add(dataGridViewOutPut_SBI);
-            groupBoxOutPut_SBI.Dock = DockStyle.Fill;
-            groupBoxOutPut_SBI.Location = new Point(403, 6);
-            groupBoxOutPut_SBI.Name = "groupBoxOutPut_SBI";
-            groupBoxOutPut_SBI.Size = new Size(391, 249);
-            groupBoxOutPut_SBI.TabIndex = 1;
-            groupBoxOutPut_SBI.TabStop = false;
-            groupBoxOutPut_SBI.Text = "Вывод:";
+            groupBoxOutPut_ErmakovAA.Controls.Add(dataGridViewOutPut_ErmakovAA);
+            groupBoxOutPut_ErmakovAA.Dock = DockStyle.Fill;
+            groupBoxOutPut_ErmakovAA.Location = new Point(403, 6);
+            groupBoxOutPut_ErmakovAA.Name = "groupBoxOutPut_ErmakovAA";
+            groupBoxOutPut_ErmakovAA.Size = new Size(391, 249);
+            groupBoxOutPut_ErmakovAA.TabIndex = 1;
+            groupBoxOutPut_ErmakovAA.TabStop = false;
+            groupBoxOutPut_ErmakovAA.Text = "Вывод:";
             // 
-            // dataGridViewOutPut_SBI
+            // dataGridViewOutPut_ErmakovAA
             // 
-            dataGridViewOutPut_SBI.AllowUserToResizeRows = false;
-            dataGridViewOutPut_SBI.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewOutPut_SBI.ColumnHeadersVisible = false;
-            dataGridViewOutPut_SBI.Dock = DockStyle.Fill;
-            dataGridViewOutPut_SBI.Location = new Point(3, 19);
-            dataGridViewOutPut_SBI.Name = "dataGridViewOutPut_SBI";
-            dataGridViewOutPut_SBI.RowHeadersVisible = false;
-            dataGridViewOutPut_SBI.Size = new Size(385, 227);
-            dataGridViewOutPut_SBI.TabIndex = 0;
+            dataGridViewOutPut_ErmakovAA.AllowUserToResizeRows = false;
+            dataGridViewOutPut_ErmakovAA.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewOutPut_ErmakovAA.ColumnHeadersVisible = false;
+            dataGridViewOutPut_ErmakovAA.Dock = DockStyle.Fill;
+            dataGridViewOutPut_ErmakovAA.Location = new Point(3, 19);
+            dataGridViewOutPut_ErmakovAA.Name = "dataGridViewOutPut_ErmakovAA";
+            dataGridViewOutPut_ErmakovAA.RowHeadersVisible = false;
+            dataGridViewOutPut_ErmakovAA.Size = new Size(385, 227);
+            dataGridViewOutPut_ErmakovAA.TabIndex = 0;
             // 
-            // toolTip_SBI
+            // toolTip_ErmakovAA
             // 
-            toolTip_SBI.IsBalloon = true;
+            toolTip_ErmakovAA.IsBalloon = true;
             // 
-            // openFileDialog_SBI
+            // openFileDialog_ErmakovAA
             // 
-            openFileDialog_SBI.FileName = "file.csv";
+            openFileDialog_ErmakovAA.FileName = "file.csv";
             // 
-            // saveFileDialog_SBI
+            // saveFileDialog_ErmakovAA
             // 
-            saveFileDialog_SBI.FileName = "file.csv";
+            saveFileDialog_ErmakovAA.FileName = "file.csv";
             // 
             // FormMain
             // 
@@ -264,41 +264,41 @@
             ClientSize = new Size(800, 450);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(panel1);
-            Controls.Add(panelButtons_SBI);
+            Controls.Add(panelButtons_ErmakovAA);
             MinimumSize = new Size(816, 489);
             Name = "FormMain";
             Text = "Спринт 6 | Таск 7 | Вариант 21 | Ермаков А.А.";
-            panelButtons_SBI.ResumeLayout(false);
-            groupBoxTask_SBI.ResumeLayout(false);
-            groupBoxTask_SBI.PerformLayout();
+            panelButtons_ErmakovAA.ResumeLayout(false);
+            groupBoxTask_ErmakovAA.ResumeLayout(false);
+            groupBoxTask_ErmakovAA.PerformLayout();
             panel1.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
-            groupBoxInPut_SBI.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridViewInPut_SBI).EndInit();
-            groupBoxOutPut_SBI.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridViewOutPut_SBI).EndInit();
+            groupBoxInPut_ErmakovAA.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridViewInPut_ErmakovAA).EndInit();
+            groupBoxOutPut_ErmakovAA.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridViewOutPut_ErmakovAA).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panelButtons_SBI;
-        private Button buttonHelp_SBI;
-        private Button buttonDone_SBI;
-        private Button buttonOpenFile_SBI;
+        private Panel panelButtons_ErmakovAA;
+        private Button buttonHelp_ErmakovAA;
+        private Button buttonDone_ErmakovAA;
+        private Button buttonOpenFile_ErmakovAA;
         private Panel panel2;
-        private Button buttonAbout_SBI;
-        private GroupBox groupBoxTask_SBI;
-        private TextBox textBoxTask_SBI;
+        private Button buttonAbout_ErmakovAA;
+        private GroupBox groupBoxTask_ErmakovAA;
+        private TextBox textBoxTask_ErmakovAA;
         private Panel panel1;
         private TableLayoutPanel tableLayoutPanel1;
-        private GroupBox groupBoxInPut_SBI;
-        private DataGridView dataGridViewInPut_SBI;
-        private GroupBox groupBoxOutPut_SBI;
-        private DataGridView dataGridViewOutPut_SBI;
-        private Button buttonSaveFile_SBI;
-        private ToolTip toolTip_SBI;
-        private OpenFileDialog openFileDialog_SBI;
-        private SaveFileDialog saveFileDialog_SBI;
+        private GroupBox groupBoxInPut_ErmakovAA;
+        private DataGridView dataGridViewInPut_ErmakovAA;
+        private GroupBox groupBoxOutPut_ErmakovAA;
+        private DataGridView dataGridViewOutPut_ErmakovAA;
+        private Button buttonSaveFile_ErmakovAA;
+        private ToolTip toolTip_ErmakovAA;
+        private OpenFileDialog openFileDialog_ErmakovAA;
+        private SaveFileDialog saveFileDialog_ErmakovAA;
     }
 }
