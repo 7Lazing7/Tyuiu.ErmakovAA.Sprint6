@@ -26,7 +26,7 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task3.V30
 
             mtrx = ds.Calculate(mtrx);
 
-            UpdateDataGridView(dataGridViewMatrix2_TVD);
+            UpdateDataGridView(dataGridViewMatrix2_ErmakovAA);
         }
 
         private void UpdateDataGridView(DataGridView dataGridView)
@@ -57,17 +57,17 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task3.V30
             int rows = mtrx.GetUpperBound(0) + 1;
             int columns = mtrx.Length / rows;
 
-            dataGridViewMatrix_TVD.ColumnCount = columns;
-            dataGridViewMatrix_TVD.RowCount = rows;
+            dataGridViewMatrix_ErmakovAA.ColumnCount = columns;
+            dataGridViewMatrix_ErmakovAA.RowCount = rows;
             for (int i = 0; i < columns; i++)
             {
-                dataGridViewMatrix_TVD.Columns[i].Width = 25;
+                dataGridViewMatrix_ErmakovAA.Columns[i].Width = 25;
             }
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < rows; j++)
                 {
-                    dataGridViewMatrix_TVD.Rows[i].Cells[j].Value = Convert.ToString(mtrx[i, j]);
+                    dataGridViewMatrix_ErmakovAA.Rows[i].Cells[j].Value = Convert.ToString(mtrx[i, j]);
                 }
             }
         }

@@ -11,23 +11,23 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task6.V6
 
         DataService ds = new DataService();
         string openFilePath;
-        private void buttonOpenFile_TVD_Click(object sender, EventArgs e)
+        private void buttonOpenFile_ErmakovAA_Click(object sender, EventArgs e)
         {
-            openFileDialogTask_TVD.ShowDialog();
-            openFilePath = openFileDialogTask_TVD.FileName;
-            textBoxInPutData_TVD.Text = File.ReadAllText(openFilePath);
-            groupBoxInPutData_TVD.Text = groupBoxInPutData_TVD.Text + " " + openFileDialogTask_TVD.FileName;
-            buttonDone_TVD.Enabled = true;
+            openFileDialogTask_ErmakovAA.ShowDialog();
+            openFilePath = openFileDialogTask_ErmakovAA.FileName;
+            textBoxInPutData_ErmakovAA.Text = File.ReadAllText(openFilePath);
+            groupBoxInPutData_ErmakovAA.Text = groupBoxInPutData_ErmakovAA.Text + " " + openFileDialogTask_ErmakovAA.FileName;
+            buttonDone_ErmakovAA.Enabled = true;
 
         }
 
-        private void buttonDone_TVD_Click(object sender, EventArgs e)
+        private void buttonDone_ErmakovAA_Click(object sender, EventArgs e)
         {
             string str = "";
-            textBoxOutPutData_TVD.Text = ds.CollectTextFromFile(str, openFilePath);
+            textBoxOutPutData_ErmakovAA.Text = ds.CollectTextFromFile(str, openFilePath);
         }
 
-        private void buttonHelp_TVD_Click(object sender, EventArgs e)
+        private void buttonHelp_ErmakovAA_Click(object sender, EventArgs e)
         {
             FormAbout formAbout = new FormAbout();
             formAbout.ShowDialog();
