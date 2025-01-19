@@ -4,39 +4,25 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task5.V2.Lib
 {
     public class DataService : ISprint6Task5V2
     {
-        public int len = 0;
         public double[] LoadFromDataFile(string path)
         {
+            List<double> numsList = new List<double>();
+
             using (StreamReader sr = new StreamReader(path))
             {
-
-                string line;
-                while ((line = sr.ReadLine()) != null)
-                {
-                    len++;
-                }
-            }
-            double[] nums = new double[len];
-            using (StreamReader sr = new StreamReader(path))
-            {
-
-                int index = 0;
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
                     double num = Convert.ToDouble(line);
+                    // Добавляем только те числа, которые не делятся на 5
                     if (num % 5 != 0)
                     {
-                        nums[index] = Math.Round(num, 3);
-                        len++;
+                        numsList.Add(Math.Round(num, 3));
                     }
-                    index++;
                 }
-
             }
-            nums = nums.Where(x => x % 5 != 0).ToArray();
-            return nums;
 
+            return numsList.ToArray();
         }
     }
 }
