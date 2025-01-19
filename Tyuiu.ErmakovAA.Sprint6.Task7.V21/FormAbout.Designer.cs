@@ -120,4 +120,5 @@
         private PictureBox pictureBox_ErmakovAA;
         private Button buttonExit_ErmakovAA;
     }
+
 }
