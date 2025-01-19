@@ -6,7 +6,7 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task6.V6.Lib
     {
         public string CollectTextFromFile(string path)
         {
-            string resStr = "";
+            string resStr = " ";
             using (StreamReader reader = new StreamReader(path))
             {
                 string line;

@@ -180,7 +180,7 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task6.V6
             // buttonDone_ErmakovAA
             // 
             this.buttonDone_ErmakovAA.Enabled = false;
-            this.buttonDone_ErmakovAA.Image = global::Tyuiu.TarasovVD.Sprint6.Task6.V6.Properties.Resources.page_go;
+            this.buttonDone_ErmakovAA.Image = global::Tyuiu.ErmakovAA.Sprint6.Task6.V6.Properties.Resources.page_go;
             this.buttonDone_ErmakovAA.Location = new System.Drawing.Point(84, 4);
             this.buttonDone_ErmakovAA.Name = "buttonDone_ErmakovAA";
             this.buttonDone_ErmakovAA.Size = new System.Drawing.Size(75, 56);
@@ -191,7 +191,7 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task6.V6
             // 
             // buttonOpenFile_ErmakovAA
             // 
-            this.buttonOpenFile_ErmakovAA.Image = global::Tyuiu.TarasovVD.Sprint6.Task6.V6.Properties.Resources.folder_page;
+            this.buttonOpenFile_ErmakovAA.Image = global::Tyuiu.ErmakovAA.Sprint6.Task6.V6.Properties.Resources.folder_page;
             this.buttonOpenFile_ErmakovAA.Location = new System.Drawing.Point(3, 3);
             this.buttonOpenFile_ErmakovAA.Name = "buttonOpenFile_ErmakovAA";
             this.buttonOpenFile_ErmakovAA.Size = new System.Drawing.Size(75, 56);

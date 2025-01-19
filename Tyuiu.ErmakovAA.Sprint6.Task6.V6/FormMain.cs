@@ -34,4 +34,3 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task6.V6
         }
     }
 }
-

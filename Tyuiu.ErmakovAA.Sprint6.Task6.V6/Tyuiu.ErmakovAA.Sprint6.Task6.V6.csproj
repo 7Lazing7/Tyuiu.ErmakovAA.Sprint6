@@ -12,8 +12,4 @@
     <ProjectReference Include="..\Tyuiu.ErmakovAA.Sprint6.Task6.V6.Lib\Tyuiu.ErmakovAA.Sprint6.Task6.V6.Lib.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Tyuiu\" />
-  </ItemGroup>
-
 </Project>
