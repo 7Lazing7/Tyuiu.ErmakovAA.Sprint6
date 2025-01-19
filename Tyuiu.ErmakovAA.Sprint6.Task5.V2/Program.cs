@@ -1,4 +1,4 @@
-using Tyuiu.ErmakovAA.Sprint6.Task5.V2Lib;
+using Tyuiu.ErmakovAA.Sprint6.Task5.V2.Lib;
 namespace Tyuiu.ErmakovAA.Sprint6.Task5.V2
 {
     public partial class FormMain : Form
