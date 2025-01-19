@@ -6,7 +6,7 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task5.V2.Lib
     {
         public double[] LoadFromDataFile(string path)
         {
-            List<double> numsList = new List<double>();
+            List<double> negativeNums = new List<double>();
 
             using (StreamReader sr = new StreamReader(path))
             {
@@ -14,15 +14,15 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task5.V2.Lib
                 while ((line = sr.ReadLine()) != null)
                 {
                     double num = Convert.ToDouble(line);
-                    // Добавляем только те числа, которые не делятся на 5
-                    if (num % 5 != 0)
+                    // Проверяем только отрицательные числа
+                    if (num < 0)
                     {
-                        numsList.Add(Math.Round(num, 3));
+                        negativeNums.Add(Math.Round(num, 3));
                     }
                 }
             }
 
-            return numsList.ToArray();
+            return negativeNums.ToArray();
         }
     }
 }
