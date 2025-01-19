@@ -17,7 +17,7 @@ namespace Tyuiu.ErmakovAA.Sprint6.Task6.V6.Lib
                     {
                         if (word.Contains("b"))
                         {
-                            resStr = resStr + "" + word;
+                            resStr = resStr + " " + word;
                         }
                     }
 
